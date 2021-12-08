@@ -19,10 +19,11 @@
 }
 
 li, a, span {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 500;
     color: #1DB954;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .nav-link:hover {
@@ -86,3 +87,44 @@ main {
     color: #000;
     font-weight: bold;
 }
+
+.albumbeeld {
+    font-size: 12px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-flow: row;
+}
+
+.nummer {
+    font-family: 'Varela Round', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 75%;
+    background-color: #191414;
+}
+
+.label {
+    opacity: 50%;
+    font-size: 10px;
+}
+
+.info { 
+    grid-area: info; 
+}
+
+.info img {
+    width: 500px;
+}
+
+.nummers { grid-area: nummers; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:  
+      'info nummers';
+    grid-gap: 10px;
+    padding: 10px;
+  }
